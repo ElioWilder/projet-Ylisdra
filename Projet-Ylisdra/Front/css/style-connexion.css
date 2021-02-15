@@ -1,0 +1,73 @@
+/*Arrière plan du site*/
+.big-bg {
+	background-image : url("./src_main_resources_public_bg.svg");
+}
+
+.big-bg-color {
+	background-image: linear-gradient(lightgray, black);
+}
+
+.bg-nav {
+	background-color: #0D87F6;
+}
+
+.bg-card {
+	background-color: #FFEED6;
+}
+
+/*Buttons' Class*/
+
+.btn-color {
+	background-color: #0D87F6;
+}
+
+.pos {
+	display: block;
+	position: relative;
+	margin-left: 7.5em;
+	top: 4rem;
+}
+
+.btn-size {
+	width: 100px;
+	height: 38px; 
+}
+
+/*input autenfication key*/
+
+
+/*Media queries page index*/
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+	.body {
+		max-width: 600px;
+	}
+
+	.banner {
+	width: 600px;
+	max-height: 130px;
+	}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+	.body {
+		max-width: 1200px;
+	}
+
+	.banner {
+		width: 1200px;
+		max-height: 130px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1890px){
+	.body {
+		max-width: 1200px;
+	}
+
+	.banner {
+		width: 1200px;
+		max-height: 130px;
+	}
+}
